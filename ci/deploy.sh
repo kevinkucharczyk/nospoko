@@ -34,6 +34,6 @@ ssh-add deploy_key
 echo "Pushing to GitHub..."
 
 # Now that we're all set up, we can push.
-git push $SSH_REPO $TARGET_BRANCH
+git push --force $SSH_REPO $TARGET_BRANCH
 
 echo "Done!"
