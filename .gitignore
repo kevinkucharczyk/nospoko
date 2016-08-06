@@ -4,7 +4,7 @@
 _site/
 .sass-cache/
 .jekyll-metadata
-
+.asset-cache/
 
 ### Ruby ###
 *.gem
