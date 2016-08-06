@@ -18,7 +18,7 @@ cd ..
 # Clean out existing contents
 rm -rf out/**/* || exit 0
 
-bundle exec jekyll --destination out
+bundle exec jekyll build --destination out
 
 cd out
 git config user.name "Travis CI"
