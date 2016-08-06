@@ -2,22 +2,18 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class='home'>
+  <section class='home__section home__section--first'>
+    <h1 class='home__title'>
+      {{site.title}}
+    </h1>
+    <p class='lead-text'>
+      Software and Research in Medicine, Physics, Industry and Art
+    </p>
+  </section>
+  <section class='home__section home__section--dark'>
+    <p>
+      test test testk ljagkfjadg ak
+    </p>
+  </section>
 </div>
