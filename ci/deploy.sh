@@ -17,6 +17,7 @@ cd ..
 
 # Clean out existing contents
 rm -rf out/**/* || exit 0
+rm -rf .asset-cache
 
 bundle exec jekyll build --destination out
 
