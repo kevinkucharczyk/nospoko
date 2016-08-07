@@ -1,4 +1,17 @@
 .home {
+  position: relative;
+
+  &::before {
+    @include fixed(top 0 left 0);
+    @include sizing(100%);
+    content: '';
+    background: linear-gradient(rgba($c-allports, .8), rgba($c-pink-orange, .8)),
+      url(asset_path('img_mountains01.jpg')) no-repeat center;
+    background-size: 100%, cover;
+    will-change: transform;
+    z-index: -1;
+  }
+
   &__title {
     color: $c-white-smoke;
   }
@@ -17,9 +30,6 @@
 
     &--first {
       height: 100vh;
-      background: linear-gradient(rgba($c-allports, .8), rgba($c-pink-orange, .8)),
-        url(asset_path('img_mountains01.jpg')) no-repeat center fixed;
-      background-size: 100%, cover;
       text-align: center;
       color: $c-white-smoke;
     }

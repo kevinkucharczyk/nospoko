@@ -1,10 +1,19 @@
 .about {
-  background: linear-gradient(rgba($c-allports, .8), rgba($c-pink-orange, .8)),
-    url(asset_path('img_mountains02.jpg')) no-repeat center;
-  background-size: 100%, cover;
-  background-attachment: fixed;
+  position: relative;
+
+  &::before {
+    @include fixed(top 0 left 0);
+    @include sizing(100%);
+    content: '';
+    background: linear-gradient(rgba($c-allports, .8), rgba($c-pink-orange, .8)),
+      url(asset_path('img_mountains02.jpg')) no-repeat center;
+    background-size: 100%, cover;
+    will-change: transform;
+    z-index: -1;
+  }
 
   &__section {
+    padding: 70px 0;
     line-height: 1.5;
     font-weight: $fw-light;
     color: $c-white-smoke;
@@ -20,9 +29,28 @@
     }
 
     &--light {
-      padding: 70px 0;
       background-color: $c-white;
       color: $c-outer-space;
+      box-shadow: 0 0 2px 2px rgba($c-outer-space, .5);
+    }
+  }
+
+  &__section-title {
+    font-weight: $fw-light;
+  }
+
+  &__projects-list {
+    margin: 0;
+    list-style-type: lower-roman;
+  }
+
+  &__project {
+    margin: 15px;
+    color: $c-white-smoke;
+    font-size: $fs-300;
+
+    &:first-child {
+      margin-top: 25px;
     }
   }
 }
