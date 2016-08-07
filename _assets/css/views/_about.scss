@@ -1,0 +1,28 @@
+.about {
+  background: linear-gradient(rgba($c-allports, .8), rgba($c-pink-orange, .8)),
+    url(asset_path('img_mountains02.jpg')) no-repeat center;
+  background-size: 100%, cover;
+  background-attachment: fixed;
+
+  &__section {
+    line-height: 1.5;
+    font-weight: $fw-light;
+    color: $c-white-smoke;
+    font-size: $fs-400;
+
+    &--first {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      text-align: center;
+    }
+
+    &--light {
+      padding: 70px 0;
+      background-color: $c-white;
+      color: $c-outer-space;
+    }
+  }
+}
