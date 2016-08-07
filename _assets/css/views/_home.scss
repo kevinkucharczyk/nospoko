@@ -4,7 +4,7 @@
   }
 
   &__subtitle {
-    color: $c-pavlova;
+    color: $c-white-smoke;
   }
 
   &__section {
@@ -16,23 +16,12 @@
     font-weight: $fw-light;
 
     &--first {
-      padding: 200px 0;
-      background: linear-gradient(transparent, rgba($c-cape-cod-darker, 1)),
+      height: 100vh;
+      background: linear-gradient(rgba($c-allports, .8), rgba($c-pink-orange, .8)),
         url(asset_path('img_mountains01.jpg')) no-repeat center fixed;
       background-size: 100%, cover;
       text-align: center;
       color: $c-white-smoke;
     }
-
-    &--dark {
-      background: $c-cape-cod-darker;
-      color: $c-white-smoke;
-    }
-  }
-
-  &__description {
-    width: 100%;
-    margin: 0;
-    padding: 50px 0;
   }
 }
