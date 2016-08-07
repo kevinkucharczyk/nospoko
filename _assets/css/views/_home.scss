@@ -1,10 +1,13 @@
 .home {
   &__title {
-    color: $c-white;
+    color: $c-white-smoke;
+  }
+
+  &__subtitle {
+    color: $c-pavlova;
   }
 
   &__section {
-    padding: 30px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,29 +16,23 @@
     font-weight: $fw-light;
 
     &--first {
-      padding: 200px 0 0;
-      background: url(asset_path('img_mountains01.jpg')) no-repeat center fixed;
-      background-size: cover;
+      padding: 200px 0;
+      background: linear-gradient(transparent, rgba($c-cape-cod-darker, 1)),
+        url(asset_path('img_mountains01.jpg')) no-repeat center fixed;
+      background-size: 100%, cover;
       text-align: center;
       color: $c-white-smoke;
     }
 
     &--dark {
-      background-color: $c-outer-space;
+      background: $c-cape-cod-darker;
       color: $c-white-smoke;
-    }
-
-    &--light {
-      background-color: $c-white-smoke;
-      color: $c-outer-space;
     }
   }
 
   &__description {
     width: 100%;
     margin: 0;
-    padding: 100px 0 50px;
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba($c-outer-space, .9) 50%);
-    color: $c-white-smoke;
+    padding: 50px 0;
   }
 }
