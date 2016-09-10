@@ -1,36 +1,36 @@
-.about {
+.v-about {
   position: relative;
 
   &::before {
     @include fixed(top 0 left 0);
     @include sizing(100%);
+    z-index: -1;
     content: '';
     background: linear-gradient(rgba($c-allports, .8), rgba($c-pink-orange, .8)),
       url(asset_path('img_mountains02.jpg')) no-repeat center;
     background-size: 100%, cover;
     will-change: transform;
-    z-index: -1;
   }
 
   &__section {
     padding: 70px 0;
-    line-height: 1.5;
-    font-weight: $fw-light;
-    color: $c-white-smoke;
     font-size: $fs-400;
+    font-weight: $fw-light;
+    line-height: 1.5;
+    color: $c-white-smoke;
 
     &--first {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
       height: 100vh;
       text-align: center;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
 
     &--light {
-      background-color: $c-white;
       color: $c-outer-space;
+      background-color: $c-white;
       box-shadow: 0 0 2px 2px rgba($c-outer-space, .5);
     }
   }
@@ -41,13 +41,14 @@
 
   &__projects-list {
     margin: 0;
+    padding: 0;
     list-style-type: lower-roman;
   }
 
   &__project {
     margin: 15px;
-    color: $c-white-smoke;
     font-size: $fs-300;
+    color: $c-white-smoke;
 
     &:first-child {
       margin-top: 25px;

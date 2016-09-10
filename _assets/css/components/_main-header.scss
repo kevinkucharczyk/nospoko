@@ -1,4 +1,4 @@
-.main-header {
+.c-main-header {
   @include absolute(top 0 left 0);
   width: 100%;
 
@@ -7,20 +7,20 @@
   }
 
   &__nav-link {
-    display: inline-block;
     position: relative;
-    padding: 15px;
+    z-index: 1;
+    display: inline-block;
     margin: 0 15px;
-    color: $c-white-smoke;
-    text-transform: uppercase;
+    padding: 15px;
     font-size: $fs-200;
     font-weight: $fw-light;
-    z-index: 1;
+    text-transform: uppercase;
+    color: $c-white-smoke;
 
     &:hover,
-    &:focus{
-      color: $c-white-smoke;
+    &:focus {
       text-decoration: none;
+      color: $c-white-smoke;
 
       &::after {
         width: 100%;
