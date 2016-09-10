@@ -5,6 +5,7 @@
 @import 'settings/typography-variables';
 @import 'settings/components-variables';
 @import 'settings/views-variables';
+@import 'settings/misc-variables';
 @import 'framework/variables';
 
 @import 'framework/components';
@@ -18,6 +19,7 @@
 
 @import 'framework/overrides';
 
+@import 'components/footer';
 @import 'components/lead-text';
 @import 'components/main-header';
 

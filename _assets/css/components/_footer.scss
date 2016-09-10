@@ -1,0 +1,10 @@
+.footer {
+  padding: $spacer-lg 0;
+  background: $c-white;
+  font-weight: $fw-light;
+
+  &__heading {
+    margin: 0 0 $spacer-md;
+    font-weight: $fw-light;
+  }
+}
