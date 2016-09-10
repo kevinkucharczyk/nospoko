@@ -5783,7 +5783,7 @@ button.close {
     height: 100%;
     z-index: -1;
     content: '';
-    background: linear-gradient(rgba(32, 113, 120, 0.8), rgba(255, 150, 102, 0.8)), url("/nospoko/assets/img_mountains02-cf4bfc18ba67ca926a70ff80c3d88e54986c8cbb823d00c6c0462bde334b8456.jpg") no-repeat center;
+    background: linear-gradient(rgba(32, 113, 120, 0.8), rgba(255, 150, 102, 0.8)), url("/nospoko/assets/img_mountains02-9d28a2abe565ea4cd7ba1f1a6903b01dfb86ff40975f13a2d1d4fba18c7f4a34.jpg") no-repeat center;
     background-size: 100%, cover;
     will-change: transform; }
   .v-about__section {
@@ -5830,7 +5830,7 @@ button.close {
     height: 100%;
     z-index: -1;
     content: '';
-    background: linear-gradient(rgba(32, 113, 120, 0.8), rgba(255, 150, 102, 0.8)), url("/nospoko/assets/img_mountains01-f6d6e92353ab6b35dc0226fd201ecbbe8e050cea2a8e79cd4735be5fc8bd736a.jpg") no-repeat center;
+    background: linear-gradient(rgba(32, 113, 120, 0.8), rgba(255, 150, 102, 0.8)), url("/nospoko/assets/img_mountains01-ad049fba199dfbe71987acb8acf0211bc1fdef3e350294c0133bc5ff48a97bef.jpg") no-repeat center;
     background-size: 100%, cover;
     will-change: transform; }
   .v-home__title {
