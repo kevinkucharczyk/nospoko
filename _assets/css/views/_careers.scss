@@ -1,4 +1,4 @@
-.v-about {
+.v-careers {
   position: relative;
 
   &::before {
@@ -7,7 +7,7 @@
     z-index: -1;
     content: '';
     background: linear-gradient(rgba($c-allports, .8), rgba($c-pink-orange, .8)),
-      url(asset_path('img_mountains02.jpg')) no-repeat center;
+      url(asset_path('img_mountains03.jpg')) no-repeat center;
     background-size: 100%, cover;
     will-change: transform;
   }
@@ -38,19 +38,15 @@
     font-weight: $fw-light;
   }
 
-  &__projects-list {
+  &__list {
     margin: 0;
     padding: 0;
     list-style-type: lower-roman;
-  }
+    list-style-position: inside;
 
-  &__project {
-    margin: 15px;
-    font-size: $fs-300;
-    color: $c-white-smoke;
-
-    &:first-child {
-      margin-top: 25px;
+    li {
+      margin: $spacer-md;
+      font-size: $fs-300;
     }
   }
 }
