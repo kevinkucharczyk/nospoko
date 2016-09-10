@@ -5783,7 +5783,7 @@ button.close {
     height: 100%;
     z-index: -1;
     content: '';
-    background: linear-gradient(rgba(32, 113, 120, 0.8), rgba(255, 150, 102, 0.8)), url("/nospoko/assets/img_mountains02-9d28a2abe565ea4cd7ba1f1a6903b01dfb86ff40975f13a2d1d4fba18c7f4a34.jpg") no-repeat center;
+    background: linear-gradient(rgba(32, 113, 120, 0.8), rgba(255, 150, 102, 0.8)), url("/nospoko/assets/img_mountains02-c379a6132cdcdfb05ba0c22a8d33a56bf7a64f4b37227498e7eda35a28374a49.jpg") no-repeat center;
     background-size: 100%, cover;
     will-change: transform; }
   .v-about__section {
@@ -5805,8 +5805,7 @@ button.close {
           justify-content: center; }
     .v-about__section--light {
       color: #414a4c;
-      background-color: #fff;
-      box-shadow: 0 0 2px 2px rgba(65, 74, 76, 0.5); }
+      background-color: #fff; }
   .v-about__section-title {
     font-weight: 300; }
   .v-about__projects-list {
@@ -5820,6 +5819,50 @@ button.close {
     .v-about__project:first-child {
       margin-top: 25px; }
 
+.v-careers {
+  position: relative; }
+  .v-careers::before {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    content: '';
+    background: linear-gradient(rgba(32, 113, 120, 0.8), rgba(255, 150, 102, 0.8)), url("/nospoko/assets/img_mountains03-1dd3aa5cbd34c42e5823bb52337c750bcf12076428b800d356e250b012682bf5.jpg") no-repeat center;
+    background-size: 100%, cover;
+    will-change: transform; }
+  .v-careers__section {
+    padding: 70px 0;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #f5f5f5; }
+    .v-careers__section--first {
+      display: -ms-flexbox;
+      display: flex;
+      height: 100vh;
+      text-align: center;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+    .v-careers__section--light {
+      color: #414a4c;
+      background-color: #fff; }
+  .v-careers__section-title {
+    font-weight: 300; }
+  .v-careers__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: lower-roman;
+    list-style-position: inside; }
+    .v-careers__list li {
+      margin: 15px;
+      font-size: 16px; }
+
 .v-home {
   position: relative; }
   .v-home::before {
@@ -5830,7 +5873,7 @@ button.close {
     height: 100%;
     z-index: -1;
     content: '';
-    background: linear-gradient(rgba(32, 113, 120, 0.8), rgba(255, 150, 102, 0.8)), url("/nospoko/assets/img_mountains01-ad049fba199dfbe71987acb8acf0211bc1fdef3e350294c0133bc5ff48a97bef.jpg") no-repeat center;
+    background: linear-gradient(rgba(32, 113, 120, 0.8), rgba(255, 150, 102, 0.8)), url("/nospoko/assets/img_mountains01-69410af172db05ea2739fcd919cc81ee67f87ae5bd32877a83e3456b7bed7b63.jpg") no-repeat center;
     background-size: 100%, cover;
     will-change: transform; }
   .v-home__title {
